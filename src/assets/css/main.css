@@ -783,14 +783,14 @@ a:hover {
 }
 
 .sponsor-logo img {
-  height: 60px;
+  height: 90px; /* Increased from 60px by 50% */
   width: auto;
   display: block;
-  max-width: 200px;
+  max-width: 300px; /* Increased from 200px by 50% */
   object-fit: contain;
   position: relative;
   z-index: 1;
-  /* Color the logo to match navy/gold theme */
+  /* Standard navy/gold color theme for ALL sponsor logos */
   filter: brightness(0.3) sepia(1) hue-rotate(200deg) saturate(3) brightness(0.8);
   transition: var(--transition);
 }
@@ -807,7 +807,8 @@ a:hover {
   }
   
   .sponsor-logo img {
-    height: 50px;
+    height: 75px; /* Increased from 50px by 50% for mobile */
+    max-width: 250px; /* Also increased for mobile */
   }
 }
 
