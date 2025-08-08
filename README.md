@@ -1,4 +1,4 @@
-# Christian Alms Foundation Website
+# Christian Alms Outreach Website
 
 An AI-guided Christian charity website that combines traditional pre-schism Christian aesthetics with modern technology. Built with Eleventy static site generator and designed to serve as a platform for charitable work guided by faith and enhanced by AI.
 
@@ -81,58 +81,6 @@ npm run build
 
 The generated files will be in the `public/` directory.
 
-## Deployment
-
-The site is configured for automatic deployment to GitHub Pages:
-
-1. Push changes to the `main` branch
-2. GitHub Actions will automatically build and deploy the site
-3. Access the live site at your GitHub Pages URL
-
-## Content Management
-
-### Adding Blog Posts
-
-Create a new Markdown file in `src/content/blog/`:
-
-```markdown
----
-title: "Your Post Title"
-date: 2024-01-01
-author: "Author Name"
-category: "Theology"
-tags: ["faith", "charity"]
-scripture: ["Matthew 25:35-40"]
-excerpt: "Brief description"
-layout: layouts/post.njk
----
-
-Your post content here...
-```
-
-### Managing CRM Data
-
-Add YAML files to `src/data/contacts/` for:
-- Donors: `donors/name.yaml`
-- Volunteers: `volunteers/name.yaml`
-- Beneficiaries: `beneficiaries/name.yaml`
-- Partners: `partners/name.yaml`
-
-## Design System
-
-The site uses a Byzantine-inspired color palette:
-
-- Byzantine Gold: `#FFD700`
-- Icon Blue: `#003f7f`
-- Manuscript Red: `#8B0000`
-- Parchment: `#F5E6D3`
-- Stone Gray: `#4A4A4A`
-- Pure White: `#FFFFFF`
-
-Typography:
-- Headers: Crimson Text (serif)
-- Body: Inter (sans-serif)
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
@@ -143,7 +91,7 @@ This project is licensed under the ISC License - see the package.json file for d
 
 ## Contact
 
-For more information about the Christian Alms Foundation:
+For more information about Christian Alms Outreach:
 - Email: contact@christianalms.org
 - Website: https://christianalms.org
 
