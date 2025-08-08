@@ -790,12 +790,14 @@ a:hover {
   object-fit: contain;
   position: relative;
   z-index: 1;
-  filter: brightness(1) saturate(1.1);
+  /* Color the logo to match navy/gold theme */
+  filter: brightness(0.3) sepia(1) hue-rotate(200deg) saturate(3) brightness(0.8);
   transition: var(--transition);
 }
 
 .sponsor-logo:hover img {
-  filter: brightness(1.05) saturate(1.2);
+  /* Enhanced navy/gold coloring on hover */
+  filter: brightness(0.4) sepia(1) hue-rotate(200deg) saturate(3) brightness(0.9);
   transform: scale(1.02);
 }
 
