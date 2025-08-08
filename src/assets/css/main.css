@@ -177,12 +177,31 @@ a:hover {
   font-weight: 700;
   color: var(--pure-white);
   text-decoration: none;
+  transition: var(--transition);
+}
+
+.site-logo:hover {
+  color: var(--gold);
+  text-decoration: none;
 }
 
 .logo-image {
   height: 40px;
   width: auto;
   display: block;
+  border-radius: 4px;
+  padding: 2px;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  transition: var(--transition);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.logo-image:hover {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border-color: var(--gold);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .logo-symbol {
