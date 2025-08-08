@@ -1,0 +1,67 @@
+name: Sarah Johnson
+email: sarah.j@example.com
+phone: (555) 234-5678
+type: volunteer
+joined: 2023-11-15
+address:
+  street: 456 Oak Avenue
+  city: Hope City
+  state: HC
+  zip: 12346
+availability:
+  monday: "evening"
+  tuesday: "evening"
+  wednesday: "unavailable"
+  thursday: "evening"
+  friday: "unavailable"
+  saturday: "morning"
+  sunday: "afternoon"
+skills:
+  - "tutoring"
+  - "math"
+  - "science"
+  - "spanish_language"
+  - "data_entry"
+volunteer_hours:
+  total: 125
+  current_month: 12
+  ytd: 45
+assignments:
+  current:
+    - project: "Math Disciples Tutoring"
+      role: "Math Tutor"
+      schedule: "Tuesday evenings 6-8 PM"
+    - project: "Food Bank"
+      role: "Distribution Assistant"
+      schedule: "Saturday mornings 9-12 PM"
+  past:
+    - project: "Summer Reading Program"
+      role: "Reading Coach"
+      dates: "June-August 2023"
+certifications:
+  - name: "Background Check"
+    date: 2023-11-01
+    expires: 2024-11-01
+  - name: "Child Safety Training"
+    date: 2023-11-15
+    expires: 2024-11-15
+emergency_contact:
+  name: "Michael Johnson"
+  relationship: "Spouse"
+  phone: (555) 234-5679
+tags:
+  - "active_volunteer"
+  - "tutor"
+  - "bilingual"
+  - "reliable"
+  - "youth_programs"
+preferences:
+  reminder_method: "text"
+  newsletter: true
+recognition:
+  - date: 2024-01-15
+    type: "Volunteer of the Month"
+    reason: "Outstanding dedication to tutoring program"
+notes: "Excellent with middle school students. Former teacher. Interested in leading a volunteer team for education initiatives."
+last_activity: 2024-02-24
+next_shift: 2024-02-27

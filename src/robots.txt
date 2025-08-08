@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://christianalms.org/sitemap.xml
+
+# Block access to sensitive files
+Disallow: /data/
+Disallow: /.github/
+Disallow: /node_modules/
+Disallow: *.json
+Disallow: *.yaml
+Disallow: *.yml

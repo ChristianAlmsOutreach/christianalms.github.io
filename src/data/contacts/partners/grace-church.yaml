@@ -1,0 +1,94 @@
+name: Grace Community Church
+type: partner
+category: church_partner
+primary_contact:
+  name: Pastor David Williams
+  title: Senior Pastor
+  email: pastor@gracechurch.org
+  phone: (555) 456-7890
+secondary_contact:
+  name: Lisa Chen
+  title: Outreach Coordinator
+  email: outreach@gracechurch.org
+  phone: (555) 456-7891
+address:
+  street: 789 Faith Boulevard
+  city: Hope City
+  state: HC
+  zip: 12347
+website: https://gracechurch.org
+congregation_size: 450
+partnership_started: 2023-09-01
+partnership_type:
+  - "distribution_site"
+  - "volunteer_source"
+  - "financial_supporter"
+  - "prayer_partner"
+facilities_available:
+  - type: "Fellowship Hall"
+    capacity: 200
+    availability: "Tuesday/Thursday evenings, Saturday mornings"
+  - type: "Kitchen"
+    commercial_grade: true
+    availability: "As needed with advance notice"
+  - type: "Parking Lot"
+    spaces: 150
+    availability: "Weekdays after 6 PM, Saturdays"
+volunteer_contributions:
+  regular_volunteers: 25
+  occasional_volunteers: 75
+  total_hours_ytd: 450
+financial_support:
+  type: "monthly"
+  amount: 500
+  designation: "General Fund"
+  additional_offerings:
+    - date: 2023-12-24
+      amount: 2500
+      designation: "Christmas Food Drive"
+    - date: 2024-01-15
+      amount: 1000
+      designation: "Education Program"
+programs_supported:
+  - program: "Food Bank Distribution"
+    role: "Host site every Tuesday"
+    impact: "Serves 75 families weekly"
+  - program: "After-School Tutoring"
+    role: "Provides space and volunteers"
+    impact: "15 students enrolled"
+events_hosted:
+  - date: 2023-11-23
+    event: "Thanksgiving Meal Distribution"
+    attendance: 200
+    volunteers: 30
+  - date: 2023-12-15
+    event: "Christmas Toy Drive"
+    items_collected: 350
+    families_served: 85
+communication_preferences:
+  newsletter: true
+  meeting_frequency: "monthly"
+  preferred_contact: "email"
+  reports: "quarterly"
+recognition:
+  - date: 2024-01-01
+    type: "Partner of the Year"
+    category: "Church Partnership"
+strengths:
+  - "Strong volunteer base"
+  - "Excellent facilities"
+  - "Bilingual congregation"
+  - "Youth involvement"
+opportunities:
+  - "Expand tutoring program"
+  - "Host job training workshops"
+  - "Develop senior care ministry"
+tags:
+  - "active_partner"
+  - "distribution_site"
+  - "major_supporter"
+  - "volunteer_source"
+notes: "Very engaged leadership. Interested in expanding partnership to include job training programs. Has connections with local businesses for potential employment opportunities."
+last_meeting: 2024-02-15
+next_meeting: 2024-03-15
+renewal_date: 2024-09-01

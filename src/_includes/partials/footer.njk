@@ -1,0 +1,46 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>{{ site.mission }}</p>
+                <p class="scripture-quote">
+                    <em>"For I was hungry and you gave me food..."</em><br>
+                    - Matthew 25:35
+                </p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-nav">
+                    {% for item in site.navigation %}
+                        <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <p><i class="fas fa-envelope"></i> <a href="#" onclick="location.href='mailto:' + ['contact','christianalms.org'].join('@'); return false;">contact[at]christianalms[dot]org</a></p>
+                <div class="social-links">
+                    <a href="https://twitter.com/{{ site.social.twitter }}" rel="noopener" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://facebook.com/{{ site.social.facebook }}" rel="noopener" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our mission and work</p>
+                <form class="newsletter-form" action="/newsletter-signup" method="post">
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; {% year %} {{ site.title }}. All rights reserved.</p>
+            <p class="footer-symbols">☧ ΑΩ ✝</p>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,51 @@
+---
+layout: base.njk
+---
+
+<article class="post">
+    <div class="container container--narrow">
+        <header class="post-header">
+            <h1 class="post-title">{{ title }}</h1>
+            <div class="post-meta">
+                <time datetime="{{ date | htmlDateString }}">{{ date | dateFormat }}</time>
+                <span class="reading-time">{{ content | readingTime }}</span>
+                {% if author %}
+                    <span class="author">by {{ author }}</span>
+                {% endif %}
+            </div>
+            {% if category %}
+                <span class="category-badge">{{ category }}</span>
+            {% endif %}
+            {% if tags %}
+                <div class="tags">
+                    {% for tag in tags %}
+                        <a href="/tags/{{ tag | slug }}/" class="tag">#{{ tag }}</a>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </header>
+        
+        {% if scripture %}
+            <div class="scripture-references">
+                <h3>Scripture References:</h3>
+                <ul>
+                    {% for ref in scripture %}
+                        <li>{% scripture ref %}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+        
+        <div class="post-content prose">
+            {{ content | safe }}
+        </div>
+        
+        <footer class="post-footer">
+            <div class="share-buttons">
+                <h3>Share this post:</h3>
+                <a href="https://twitter.com/intent/tweet?text={{ title | urlencode }}&url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">Twitter</a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">Facebook</a>
+            </div>
+        </footer>
+    </div>
+</article>

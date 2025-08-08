@@ -1,0 +1,22 @@
+{
+    "name": "Christian Alms Outreach",
+    "short_name": "CAO",
+    "description": "Christian charity supporting local communities with AI-enhanced charitable work",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#001F3F",
+    "theme_color": "#FFD700",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/assets/images/logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

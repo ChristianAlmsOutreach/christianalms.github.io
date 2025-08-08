@@ -1,0 +1,48 @@
+{
+  "title": "Christian Alms Outreach",
+  "description": "An AI-guided Christian charity website combining traditional faith with modern technology for charitable work, all for God's glory",
+  "url": "https://christianalms.org",
+  "author": "Christian Alms Outreach",
+  "email": "contact@christianalms.org",
+  "social": {
+    "twitter": "@christianalms",
+    "facebook": "christianalmsoutreach"
+  },
+  "navigation": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "text": "AI & Faith",
+      "url": "/ai-faith/"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "navigation_commented_out": [
+    {
+      "text": "About",
+      "url": "/about/"
+    },
+    {
+      "text": "Projects",
+      "url": "/projects/"
+    },
+    {
+      "text": "Get Involved",
+      "url": "/get-involved/"
+    }
+  ],
+  "mission": "Leveraging AI technology to amplify Christian charity and serve those in need, guided by timeless faith and modern innovation.",
+  "scriptures": {
+    "main": "Matthew 25:35-40",
+    "secondary": "Proverbs 3:5-6"
+  }
+}

@@ -1,0 +1,73 @@
+id: BEN-2024-0042
+type: beneficiary
+family_name: Martinez
+primary_contact:
+  name: Maria Martinez
+  email: private
+  phone: (555) 345-6789
+household_members: 4
+children_ages: [6, 9, 14]
+enrollment_date: 2024-01-10
+services_received:
+  - service: "Food Bank"
+    frequency: "weekly"
+    start_date: 2024-01-10
+    status: "active"
+  - service: "Tutoring Program"
+    frequency: "twice_weekly"
+    start_date: 2024-01-20
+    status: "active"
+    details: "Math tutoring for 9-year-old, reading support for 6-year-old"
+  - service: "School Supplies"
+    frequency: "seasonal"
+    last_received: 2024-01-25
+    status: "active"
+needs_assessment:
+  food_security: "high_need"
+  housing: "stable"
+  healthcare: "medicaid"
+  education: "moderate_need"
+  employment: "underemployed"
+  transportation: "public_transit"
+assistance_history:
+  - date: 2024-02-20
+    type: "Food Distribution"
+    items: "Weekly grocery package"
+  - date: 2024-02-15
+    type: "Utility Assistance"
+    amount: 75
+    details: "Electric bill support"
+  - date: 2024-02-10
+    type: "Food Distribution"
+    items: "Weekly grocery package + fresh produce"
+dietary_restrictions:
+  - "vegetarian_preferred"
+  - "lactose_intolerant_child"
+language: "Spanish"
+interpreter_needed: false
+case_notes:
+  - date: 2024-02-20
+    note: "Family doing well. Children showing improvement in school. Mother started part-time job."
+    author: "Case Worker: Tom Smith"
+  - date: 2024-01-10
+    note: "Initial intake. Single mother with 3 children. Recently lost full-time employment. Immediate need for food assistance and educational support."
+    author: "Intake Coordinator: Jane Davis"
+goals:
+  - description: "Achieve food security"
+    target_date: 2024-06-01
+    status: "in_progress"
+  - description: "Children improve academic performance"
+    target_date: 2024-05-30
+    status: "in_progress"
+  - description: "Mother finds stable full-time employment"
+    target_date: 2024-08-01
+    status: "in_progress"
+tags:
+  - "active_client"
+  - "food_bank"
+  - "education_support"
+  - "single_parent"
+privacy_consent: true
+data_sharing_consent: false
+last_contact: 2024-02-20
+next_appointment: 2024-02-27

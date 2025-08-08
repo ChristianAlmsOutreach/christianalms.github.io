@@ -1,0 +1,37 @@
+name: John Doe
+email: john.doe@example.com
+phone: (555) 123-4567
+type: donor
+joined: 2024-01-01
+address:
+  street: 123 Main Street
+  city: Hope City
+  state: HC
+  zip: 12345
+donations:
+  - date: 2024-01-15
+    amount: 100
+    project: "Food Bank"
+    method: credit_card
+  - date: 2024-02-01
+    amount: 150
+    project: "Education Support"
+    method: check
+  - date: 2024-02-15
+    amount: 100
+    project: "General Fund"
+    method: credit_card
+total_donated: 350
+giving_level: "monthly"
+tags: 
+  - "monthly_donor"
+  - "food_bank_supporter"
+  - "newsletter_subscriber"
+preferences:
+  contact_method: email
+  newsletter: true
+  annual_report: true
+  tax_receipt: email
+notes: "Interested in AI initiatives and education programs. Works in tech industry. Mentioned interest in volunteering for coding workshops."
+last_contact: 2024-02-20
+next_followup: 2024-03-15

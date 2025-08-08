@@ -1,0 +1,27 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <a href="/" class="site-logo">
+                <img src="/assets/images/logo.png" alt="{{ site.title }}" class="logo-image">
+                <span class="logo-text">{{ site.title }}</span>
+            </a>
+            
+            <nav class="main-nav" aria-label="Main navigation">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="sr-only">Menu</span>
+                    <span class="nav-toggle-icon"></span>
+                </button>
+                
+                <ul id="nav-menu" class="nav-menu">
+                    {% for item in site.navigation %}
+                        <li class="nav-item">
+                            <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>
+                                {{ item.text }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
