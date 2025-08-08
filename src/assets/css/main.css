@@ -783,10 +783,10 @@ a:hover {
 }
 
 .sponsor-logo img {
-  height: 90px; /* Increased from 60px by 50% */
+  height: 180px; /* Increased from 60px by 200% */
   width: auto;
   display: block;
-  max-width: 300px; /* Increased from 200px by 50% */
+  max-width: 600px; /* Increased from 200px by 200% */
   object-fit: contain;
   position: relative;
   z-index: 1;
@@ -807,8 +807,8 @@ a:hover {
   }
   
   .sponsor-logo img {
-    height: 75px; /* Increased from 50px by 50% for mobile */
-    max-width: 250px; /* Also increased for mobile */
+    height: 120px; /* Increased from 50px by 140% for mobile - proportional to 200% desktop increase */
+    max-width: 400px; /* Proportionally increased for mobile */
   }
 }
 
