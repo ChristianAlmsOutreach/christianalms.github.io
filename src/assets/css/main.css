@@ -750,17 +750,36 @@ a:hover {
 }
 
 .sponsor-logo {
-  background: var(--pure-white);
+  background: linear-gradient(135deg, var(--pure-white) 0%, rgba(248, 249, 250, 0.95) 100%);
   padding: var(--spacing-lg);
-  border-radius: var(--border-radius);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 31, 63, 0.1);
   transition: var(--transition);
-  border: 1px solid rgba(0, 31, 63, 0.1);
+  border: 2px solid rgba(255, 215, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.sponsor-logo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.05) 0%, rgba(0, 31, 63, 0.02) 100%);
+  pointer-events: none;
 }
 
 .sponsor-logo:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 31, 63, 0.2);
+  border-color: rgba(255, 215, 0, 0.4);
+  background: linear-gradient(135deg, var(--pure-white) 0%, rgba(255, 215, 0, 0.05) 100%);
+}
+
+.sponsor-logo:hover::before {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.08) 0%, rgba(0, 31, 63, 0.03) 100%);
 }
 
 .sponsor-logo img {
@@ -769,6 +788,15 @@ a:hover {
   display: block;
   max-width: 200px;
   object-fit: contain;
+  position: relative;
+  z-index: 1;
+  filter: brightness(1) saturate(1.1);
+  transition: var(--transition);
+}
+
+.sponsor-logo:hover img {
+  filter: brightness(1.05) saturate(1.2);
+  transform: scale(1.02);
 }
 
 @media (max-width: 768px) {
