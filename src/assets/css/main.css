@@ -760,6 +760,9 @@ a:hover {
   border: 2px solid rgba(255, 215, 0, 0.2);
   position: relative;
   overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .sponsor-logo::before {
